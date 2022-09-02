@@ -1,6 +1,6 @@
 {
   "name": "@keeveeg/vue3-skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "files": [
     "dist"
@@ -9,9 +9,10 @@
   "module": "./dist/vue3-skeleton.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-skeleton.js",
+      "import": "./dist/vue3-skeleton.es.js",
       "require": "./dist/vue3-skeleton.umd.cjs"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "repository": {
     "type": "git",
